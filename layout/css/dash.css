@@ -1,0 +1,187 @@
+/*start dashboard style*/
+
+.dashboard .head{
+    color:#555;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.dashboard .sta{
+    text-decoration: none;
+    color:#333
+}
+.dashboard .header_item{
+    border: 1px solid #ccc;
+    box-shadow: 1px 3px 6px 1px rgba(53, 54, 102, .3);
+    padding: 20px 0px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.dashboard .header_item p{
+    font-weight: 600;
+    font-size: 22px;
+    color:#eee;
+    letter-spacing: 1px;
+    
+}
+.dashboard .header_item span{
+    font-size: 55px;
+    font-weight: 500;
+    display: block;
+    color:#fff;
+    padding: 20px 0;
+}
+.dashboard .panel{
+    background-color: #eaeaea;
+    margin-top: 50px;
+}
+.dashboard .panel .panel_header{
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    box-shadow: 6px -4px 14px 3px rgba(53, 54, 102, .3)
+}
+.dashboard .panel .panel_header i{
+    font-size: 22px;
+}
+.dashboard .panel .panel_header span{
+    font-size: 22px;
+    padding-left: 10px;
+    
+}
+.dashboard .panel .panel_body{
+    padding: 5px 20px;
+    background-color: #fff;
+    border: 1px solid #cacaca;
+}
+.dashboard .panel .panel_body .table td, .table th{
+    vertical-align: inherit;
+    font-weight: 700;
+}
+.dashboard .panel .panel_body .table-striped tbody tr{
+
+    border: 1px solid #bbb;
+    border-radius: 50px;
+}
+.dashboard .panel .panel_body .table td, .table th{
+    border: none;
+}
+.adduser_icon{
+    font-size: 70px;
+    margin-bottom: 5px;
+    color:#333
+}
+/*end dashboard style*/ 
+.item {
+    background-color: #efefef;
+    margin-bottom: 30px;
+    padding: 40px 0;
+    position: relative;
+    background-color: #fff;
+    border-radius: 26px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 3px 6px 1px rgba(53, 54, 102, .3);
+    transition: all .3s ease-in-out;
+}
+
+.item:hover {
+    box-shadow: 4px 4px 8px 6px rgba(53, 54, 102, .3);
+}
+.item img {
+    width: 50px;
+}
+.item h3 {
+    margin-bottom: 5px;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.item p {
+    padding: 0;
+    margin: 0;
+    color: #1f2dce;
+    letter-spacing: .5px;
+}
+.item span {
+    display: block;
+}
+
+.pdf_size {
+    font-size: 13px;
+    font-weight: 400;
+    color: #888;
+    padding-bottom: 30px;
+    padding-top: 5px;
+}
+
+.download {
+    width: 150px;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-family: 'Cairo', sans-serif;
+    outline: none;
+    border: 1px solid #250fad;
+    color: #fff;
+    background-color: #250fad;
+    transition: all .3s ease-in-out
+}
+
+.download a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+    color: #fff;
+    font-weight: 900;
+    margin: 0;
+    transition: all .3s ease-in-out;
+    padding: 0;
+}
+
+.online {
+    width: 150px;
+    font-size: 18px;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    font-weight: 500;
+    font-family: 'Cairo', sans-serif;
+    outline: none;
+    border: 1px solid #250fad;
+    color: #fff;
+    background-color: #250fad;
+    transition: all .3s ease-in-out
+}
+
+.online a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+    color: #fff;
+    font-weight: 900;
+    margin: 0;
+    transition: all .3s ease-in-out;
+    padding: 0;
+}
+
+.download:hover,
+.online:hover {
+    border: 1px solid #1488f0;
+    background-color: #1488f0;
+}
+
+.download:hover a,
+.online:hover a {
+    color: #fff;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+.adduser_icon{
+    font-size: 70px;
+    margin-bottom: 5px;
+    color:#333
+}

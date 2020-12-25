@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+}
+/*change stander settings*/
+.row{
+    margin-left: 0;
+}
+
+/*start header section*/
+.header{
+    background-color: #fff;
+}
+/*first part of header (intro)*/
+.header .intro{
+    padding: 20px 0;
+}
+.header .intro img{
+    width: 120px;
+}
+.header .intro h3{
+    font-weight: 900;
+    margin: 0 ;
+    color: #1521b1;
+}
+.header .intro p{
+    font-size: 22px;
+    font-weight: 800;
+    padding: 1px 0;
+    margin: 0;
+    padding: 5px 0;
+    color: #1521b1;
+}
+.header .intro h5{
+    font-weight: 700;
+    color: #1521b1;
+}
+@media (max-width:775px){
+    .header .intro p , .header .intro h5 , .header .intro h3 , .header .faculty_info{
+        display: none;
+    }
+    .header .intro img{
+        width:80px
+    }
+    .header .intro{
+        padding: 5px 0;
+    }
+}
+
+/*second part of header (navbar)*/
+.navbar{
+    background-color: #56a7ff !important;
+}
+.navbar ul li{
+    padding: 0 13px;
+}
+.navbar ul li a{
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all .3s ease-in;
+}
+.navbar ul li a:hover{
+    color: #07128b !important;
+}
+.navbar .active{
+    color: #07128b !important;
+    font-weight: 900;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu{
+    background-color: #434343;
+    margin-top: 10px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a{
+    border-bottom: 1px solid #333232;
+    padding: 10px 15px;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a:hover{
+    border-bottom: 2px solid #07128b;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu a:last-child{
+    border-bottom: none;
+}
+@media (min-width:775px){
+    .navbar-brand{
+        display: none;
+    }
+}
+@media (max-width:775px){
+    .navbar ul{
+        padding: 20px 0;
+        direction: ltr;
+    }
+    .navbar ul li a{
+        border-bottom: 1px solid #efefef;
+    }
+
+}
+.navbar-light .navbar-toggler{
+    outline: none;
+}
+/*end header section*/
